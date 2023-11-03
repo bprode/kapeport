@@ -4,12 +4,10 @@ portfolio
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bearod</title>  
-  
+    <title>Bearod</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
-        
         body {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
             background-color: #f4f4f4;
@@ -21,7 +19,6 @@ portfolio
             color: #eed8be;
             padding: 20px 0;
             text-align: center;
-        
         }
         h1 {
             font-size: 36px;
@@ -39,8 +36,6 @@ portfolio
             font-size: 20px;
             color: #6c3d08;
             text-align:center;
-        
-
         }
         .container {
             max-width: 800px;
@@ -55,8 +50,7 @@ portfolio
         }
         img {
             max-width: 25%;
-            height:auto;
-            
+            height:auto; 
         }
         .menu-item {
             margin: 20px 0;
@@ -114,7 +108,6 @@ portfolio
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        
         <h2>About Me</h2>
         <div class="menu-item">
             <h3>Education</h3>
