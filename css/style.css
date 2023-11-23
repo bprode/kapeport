@@ -1,0 +1,80 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: #6c3d08;
+    color: #eed8be;
+    padding: 1px 0;
+    text-align: center;
+
+}
+h1 {
+    font-size: 36px;
+    color: #efefef;
+    text-align:center;
+}
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #6c3d08;
+    text-align:center;
+
+}
+h3 {
+    font-size: 20px;
+    color: #6c3d08;
+    text-align:center;
+
+
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #efefef;
+}
+p {
+    font-size: 16px;
+    color:gray;
+    text-align: center;
+}
+img {
+    max-width: 25%;
+    height:auto;
+    
+}
+video {
+    width: 640px; 
+    height: 360px; /* added a video :') */
+}
+menu-item {
+    margin: 20px 0;
+}
+instagram-icon{
+    display: inline-block;
+}
+phone-icon{
+    display:inline-block;
+}
+table {
+    border-collapse: collapse;
+    width: 0%;
+    margin: 0px auto;
+}
+th, td {
+    border: 0px transparent #dddddd;
+    text-align: center;
+    color: gray;
+    padding: 2px;
+}
+th {
+    background-color: #f2f2f2;
+}
+footer{
+    font-style: italic;
+    text-align: center;   
+}
