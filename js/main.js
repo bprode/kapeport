@@ -18,3 +18,12 @@ function resetCounter() {
 count = 0;
 updateCounterDisplay();
 }
+function populateOrderedList(initialValue, stopValue) {
+    var numbersList = document.getElementById("numbers");
+    for (let i = initialValue; i <= stopValue; i = i + 1) {
+        var listItem = document.createElement("li");
+        listItem.textContent = i % 2 === 0 ? "Even" : "Odd";
+        numbersList.appendChild(listItem);
+    }
+}
+populateOrderedList(1, 100);
