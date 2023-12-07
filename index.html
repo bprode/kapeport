@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bearod</title>  
   <link rel="stylesheet" href="css/style.css">
+  
+  <script src="js/main.js"></script>
+</body>
+
 </head>
+
 <body>
+      
     <header>
         <h1>Welcome to My Page</h1>
     </header>
@@ -16,6 +22,7 @@
             <source src="brewing.mp4" type="video/mp4">
         </center>
    </video>
+
          <h2>About Me</h2>
         <div class="menu-item">
             <p> I'm Bea Rodriguez</p>
@@ -47,11 +54,36 @@
                 </tr>
             </tbody>
         </table>
-        
-        
+<!-- JS starts from here :') -->
+<center><button id="hoverButton">Hover Here</button></center>   
+<Script>
+document.getElementById('hoverButton').onmouseover = () => {
+    document.getElementById('hoverButton').innerText = 'Hi';
+};
+document.getElementById('hoverButton').onmouseleave = () => {
+    document.getElementById('hoverButton').innerText = 'Hover Here';
+};
+</Script>
+<center><button id="btn-alert">Press Here!</button></center>
+<script>document.getElementById("btn-alert").addEventListener("click", showAlert);
+</script>
+
+<center><button id="counterButton">Start Counting</button>
+    <button id="resetButton">Reset</button></center>
+<p id="counterDisplay">Count: 0</p>
+<Script>
+document.getElementById("counterButton").addEventListener("click", incrementCounter);
+document.getElementById("resetButton").addEventListener("click", resetCounter);
+</Script>
+
     </div>
+
+
     <footer>
-        <p> &copy; 2023 Bearod. All rights reserved.</p>
-    </footer>
+        <p id="currentYear">&copy; Bearod. All rights reserved. </p>
+        <script>
+           document.getElementById("currentYear").textContent += currentYear;</script>
+    
+        </footer>
 </body>
 </html>
